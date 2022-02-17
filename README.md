@@ -37,7 +37,7 @@ Default GenericRepo includes methods:
 If you want to add or modify the above methods, you can ```override``` them.
 
 ### UnitOfWork
-We create a interface ```ICourseUnitOfWork``` inherit from ```UnitOfWork```\
+We create a interface ```ICourseUnitOfWork``` inherit from ```IUnitOfWork``` interface\
 ![Implemented Unit Of Work](/assets/images/courseunit-implemented-uni.png)\
 If you want to add or modify the above methods, you can ```override``` them.
 
