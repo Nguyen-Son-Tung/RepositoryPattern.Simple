@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>nsontung</Authors>
+    <Description>Simple Repository Pattern Implementation</Description>
+    <RepositoryUrl>https://github.com/Nguyen-Son-Tung/RepositoryPattern.Simple</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>repository, nst, simple repository, smallop</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
