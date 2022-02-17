@@ -2,10 +2,10 @@
 Repository Pattern Simple\
 This package was written in .NET 5.0\
 There are 2 base classes and 2 interface
-* GenericRepo
-* UnitOfWork
-* IGenericRepo
-* IUnitOfWork
+* ```GenericRepo```
+* ```UnitOfWork```
+* ```IGenericRepo```
+* ```IUnitOfWork```
 ## Example
 This a **ASP NET CORE WEB API** project
 ### Repositories
