@@ -1,4 +1,4 @@
-# RepositoryPattern.Simple
+# Smallop -- (Simple RepositoryPattern Implemetation)
 Repository Pattern Simple\
 This package was written in .NET 5.0\
 There are 2 base classes and 2 interface
