@@ -46,6 +46,10 @@ We create a interface ```ICourseUnitOfWork``` inherit from ```IUnitOfWork``` int
 
 ![Implemented Unit Of Work](/assets/images/courseunit-implemented-uni.png)
 
+We also create a class CourseUnitOfWork implemented ```UnitOfWork``` base class and ```ICourseUnitOfWork``` interface
+
+![Implemented Unit Of Work](/assets/images/imple-unit-from-iunit.png)
+
 If you want to add or modify the above methods, you can ```override``` them.
 
 ### Remember to declare the services in the startup.cs file
