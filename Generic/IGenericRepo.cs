@@ -11,6 +11,7 @@ namespace Smallop.Generic
         IEnumerable<TEntity> GetAll();
         TEntity Get(TIdentity id);
         void Add(TEntity entity);
+        void AddRange(IEnumerable<TEntity> entities);
         void Update(TEntity entity);
         void Remove(TIdentity id);
 
@@ -18,6 +19,7 @@ namespace Smallop.Generic
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task<TEntity> GetAsync(TIdentity id);
         Task AddAsync(TEntity entity);
+        Task AddRangeAsync(IEnumerable<TEntity> entities);
         Task UpdateAsync(TEntity entity);
         Task RemoveAsync(TIdentity id);
     }

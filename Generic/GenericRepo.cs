@@ -27,6 +27,16 @@ namespace Smallop.Generic
             return Task.Run(() => Add(entity));
         }
 
+        public void AddRange(IEnumerable<TEntity> entities)
+        {
+            _dbSet.AddRange(entities);
+        }
+
+        public Task AddRangeAsync(IEnumerable<TEntity> entities)
+        {
+            return _dbSet.AddRangeAsync(entities);
+        }
+
         public virtual TEntity Get(TIdentity id)
         {
             return _dbSet.Find(id);
